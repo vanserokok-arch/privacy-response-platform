@@ -1,0 +1,13 @@
+[project]
+name = "privacy-response-workers"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "celery>=5.5.0",
+  "redis>=6.0.0",
+  "playwright>=1.54.0",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
